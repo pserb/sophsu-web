@@ -76,7 +76,8 @@ div.menu {
     margin-top: -22vw;
 }
 .body table {
-    padding-left: 12vw;
+    padding-left: 8vw;
+    padding-right: 2vw;
 }
 .event-list {
     padding: 0.6vw;
@@ -112,7 +113,7 @@ div.menu {
     margin-top: -12vw;
 }
 .content {
-    margin-left: -12vw;
+    margin-left: -8vw;
 }
 .content #content-body {
     padding: 2vw;
