@@ -48,10 +48,7 @@ div.menu {
     width: 1vw;
 }
 .bg-image {
-    background-image: url("../images/stuy.jpg");
-
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    background-image: url("../images/stuy-blur.png");
 
     height: 36vw;
 
