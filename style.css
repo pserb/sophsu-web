@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: futura-pt, sans-serif;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 5000px;
+    background: #ebdfe1;
+}
+div.menu {
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 2vw;
+}
+.menu ul {
+    display: inline-flex;
+}
+.menu ul li {
+    list-style: none;
+    margin: 0 1.6vw;
+    color: #47556c;
+    cursor: pointer;
+    font-size: 1vw;
+    letter-spacing: 3px;
+    font-weight: 700px;
+    font-style: normal;
+}
+.menu ul li:hover {
+    color: #88a3ce;
+}
+.logo {
+    padding-left: 3vw;
+}
+.logo img {
+    width: 6vw;
+    padding: 1vw;
+}
+.title {
+    padding: 1.4vw;
+}
+.title h1{
+    color: #47556c;
+    font-size: 1.4vw;
+}
+.menu #spacer {
+    width: 1vw;
+}
+.bg-image {
+    background-image: url("stuy.jpg");
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 36vw;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text {
+    background: rgb(8,0,0);
+    background: linear-gradient(180deg, rgba(8,0,0,0) 0%, rgba(0,0,0,0.6018382352941176) 100%);
+    color: white;
+    font-size: 2.2vw;
+    letter-spacing: 6px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    height: 22vw;
+    width: 100%;
+    text-align: center;
+    margin-top: -22vw;
+}
+.body table {
+    padding-left: 12vw;
+}
+.event-list {
+    padding: 0.6vw;
+    width: 20vw;
+    background: #a33b3b;
+}
+.event-list ul li {
+    list-style: none;
+    padding-top: 2vw;
+    padding-left: 1.6vw;
+    padding-right: 1.6vw;
+}
+.event-list #date {
+    color: #83c2e0;
+    font-size: 1.3vw;
+}
+.event-list #title {
+    color: white;
+    font-size: 1.3vw;
+}
+.event-list p {
+    padding-top: 0.69vw;
+    color: white;
+    font-size: 0.69vw;
+}
+.event-list #head {
+    font-family: acumin-pro-wide, sans-serif;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+    margin-top: -12vw;
+}
+.content {
+    margin-left: -12vw;
+}
+.content #content-body {
+    padding: 2vw;
+}
+.content #content-body h1 {
+    color: #47556c;
+    font-size: 2vw;
+    margin-top: -6vw;
+}
+.content #content-body p {
+    color: #47556c;
+    font-size: 1vw;
+    padding-top: 0.5vw;
+    padding-left: 0.26vw;
+}
+.content #img img{
+    width: 20vw;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0;
+    }
+}
+.menu table td {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.menu table td:nth-child(5n+1) {
+    animation-delay: 0.2s;
+}
+.menu table td:nth-child(5n+2) {
+    animation-delay: 0.4s;
+}
+.menu table td:nth-child(5n+3) {
+    animation-delay: 0.6s;
+}
+.menu ul li {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.menu ul li:nth-child(5n+1) {
+    animation-delay: 0.6s;
+  }
+  .menu ul li:nth-child(5n+2) {
+    animation-delay: 0.8s;
+  }
+  .menu ul li:nth-child(5n+3) {
+    animation-delay: 1s;
+  }
+  .menu ul li:nth-child(5n+4) {
+    animation-delay: 1.2s;
+  }
+  .menu ul li:nth-child(5n+5) {
+    animation-delay: 1.4s;
+  }
+  .menu ul li:nth-child(5n+6) {
+    animation-delay: 1.6s;
+  }
+  .menu ul li:nth-child(5n+7) {
+    animation-delay: 1.8s;
+  }
+  .menu ul li:nth-child(5n+8) {
+    animation-delay: 2s;
+  }
+  .menu ul li:nth-child(5n+9) {
+    animation-delay: 2.2s;
+  }
+
+.bg-image {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.bg-image:nth-child(5n+2){
+    animation-delay: 2.2s;
+}
+.bg-text {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.bg-text:nth-child(5n+3){
+    animation-delay: 2.2s;
+}
+.event-list {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.event-list:nth-child(5n+1){
+    animation-delay: 2.4s;
+}
+.content {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.content:nth-child(5n+1){
+    animation-delay: 2.4s;
+}
