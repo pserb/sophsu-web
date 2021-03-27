@@ -33,6 +33,7 @@ body{
     
 }
 .dark-mode-toggle {
+    -webkit-appearance: none;
     border: none;
     outline: none;
     z-index: 100;
