@@ -1,16 +1,49 @@
 body{
     margin: 0;
     padding: 0;
-    color: #47556c;
+    color: var(--foreground);
     font-family: futura-pt, sans-serif;
 }
 .container {
     position: relative;
     width: 100%;
     height: auto;
-    background: #ebdfe1;
+    background: var(--background);
     overflow-x: hidden;
 }
+:root {
+    --color-light: #ebdfe1;
+    --color-dark: #47556c;
+    --btn-color-dark: #343e4e;
+    --btn-color-light: #cfc5c7;
+
+    --foreground: var(--color-dark);
+    --background: var(--color-light);
+    --btn-color: var(--btn-color-light);
+}
+.darkmode {
+    --color-light: #ebdfe1;
+    --color-dark: #47556c;
+    --btn-color-dark: #343e4e;
+    --btn-color-light: #cfc5c7;
+
+    --foreground: var(--color-light);
+    --background: var(--color-dark);
+    --btn-color: var(--btn-color-dark);
+    
+}
+.dark-mode-toggle {
+    border: none;
+    outline: none;
+    z-index: 100;
+    color: var(--foreground);
+    background: var(--btn-color);
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: -4px;
+  }
  
  #menuToggle {
    display: block;
@@ -59,7 +92,7 @@ body{
    margin-bottom: 5px;
    position: relative;
    
-   background: #47556c;
+   background: var(--foreground);
    border-radius: 3px;
    
    z-index: 10;
@@ -82,7 +115,7 @@ body{
  #menuToggle input:checked ~ span {
    opacity: 1;
    transform: rotate(45deg) translate(-2px, -1px);
-   background: #47556c;
+   background: var(--foreground);
  }
  
 
@@ -102,7 +135,7 @@ body{
    padding: 50px;
    padding-top: 125px;
    
-   background: #ebdfe1;
+   background: var(--background);
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    
@@ -137,7 +170,7 @@ body{
     height: fit-content;
     position: fixed;
     z-index: 4;
-    background: #ebdfe1;
+    background: var(--background);
 }
 .bg-image {
     background-image: url("../images/stuy-blur.png");
