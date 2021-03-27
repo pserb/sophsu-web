@@ -132,11 +132,16 @@ body{
     margin-right: 6vw;
 }
 .navbar {
-    padding-bottom: 4vw;
+    padding-bottom: 2vw;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    z-index: 4;
+    background: #ebdfe1;
 }
 .bg-image {
     background-image: url("../images/stuy-blur.png");
-    padding-top: 20vw;
+    padding-top: 36vw;
     height: 36vw;
     width: 100%;
 
