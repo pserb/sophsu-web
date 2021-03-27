@@ -76,10 +76,11 @@ div.menu {
     margin-top: -22vw;
 }
 .body table {
-    padding-left: 8vw;
-    padding-right: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 .event-list {
+    vertical-align: top;
     padding: 0.6vw;
     width: 20vw;
     background: #a33b3b;
@@ -92,16 +93,16 @@ div.menu {
 }
 .event-list #date {
     color: #83c2e0;
-    font-size: 1.3vw;
+    font-size: 2vw;
 }
 .event-list #title {
     color: white;
-    font-size: 1.3vw;
+    font-size: 1.6vw;
 }
 .event-list p {
     padding-top: 0.69vw;
     color: white;
-    font-size: 0.69vw;
+    font-size: 1.2vw;
 }
 .event-list #head {
     font-family: acumin-pro-wide, sans-serif;
@@ -110,10 +111,9 @@ div.menu {
     font-weight: 700px;
     font-style: normal;
     color: white;
-    margin-top: -12vw;
 }
 .content {
-    margin-left: -8vw;
+    margin-left: -3vw;
 }
 .content #content-body {
     padding: 2vw;
@@ -125,7 +125,7 @@ div.menu {
 }
 .content #content-body p {
     color: #47556c;
-    font-size: 1vw;
+    font-size: 1.4vw;
     padding-top: 0.5vw;
     padding-left: 0.26vw;
 }
