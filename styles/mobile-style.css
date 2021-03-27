@@ -1,14 +1,18 @@
 body{
     margin: 0;
     padding: 0;
-    color: var(--foreground);
+    transition: 0.4s ease-in;
+    background: var(--background);
     font-family: futura-pt, sans-serif;
+}
+.body {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
 }
 .container {
     position: relative;
     width: 100%;
     height: auto;
-    background: var(--background);
     overflow-x: hidden;
 }
 :root {
@@ -33,6 +37,7 @@ body{
     
 }
 .dark-mode-toggle {
+    transition: color 0.4s ease-in;
     -webkit-appearance: none;
     border: none;
     outline: none;
@@ -60,9 +65,8 @@ body{
  
  #menuToggle a {
    text-decoration: none;
-   color: #232323;
-   
-   transition: color 0.3s ease;
+   transition: 0.4s ease-in;
+   color: var(--foreground);
  }
  
  #menuToggle a:hover {
@@ -128,25 +132,32 @@ body{
  #menuToggle input:checked ~ span:nth-last-child(2) {
    transform: rotate(-45deg) translate(0, -1px);
  }
- 
+#menu #menu-color{
+    position: absolute;
+    width: 100vw;
+    margin: -50px 0 0 -50px;
+    padding: 50px;
+    transition: all  0.4s ease-in;
+    color: var(--foreground);
+    background: var(--background);
+}
  #menu {
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
    position: absolute;
    width: 100vw;
    margin: -100px 0 0 -50px;
    padding: 50px;
    padding-top: 125px;
-   
-   background: var(--background);
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    
    transform-origin: 0% 0%;
    transform: translate(-100%, 0);
    
-   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
  }
  
  #menu li {
+    transition: all  -0.8s ease-in;
    padding: 10px 0;
    font-size: 22px;
  }
@@ -166,11 +177,13 @@ body{
     margin-right: 6vw;
 }
 .navbar {
+    transition: all  0.4s ease-in;
     padding-bottom: 2vw;
     width: 100%;
     height: fit-content;
     position: fixed;
     z-index: 4;
+    color: var(--foreground);
     background: var(--background);
 }
 .bg-image {

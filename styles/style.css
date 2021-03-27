@@ -8,8 +8,7 @@
     --color-dark: #47556c;
 
     --foreground: var(--color-dark);
-    --background: var(--color-light);
-}
+    --background: var(--color-light);}
 .darkmode {
     --color-light: #ebdfe1;
     --color-dark: #47556c;
@@ -27,11 +26,13 @@
     cursor: pointer;
   }
   .dark-label {
+    transition: all 0.4s ease-in;
       color: var(--foreground);
       margin-left: 1.5vw;
       margin-top: -1vw;
   }
 .container {
+    transition: all 0.4s ease-in;
     position: relative;
     width: 100%;
     height: auto;
@@ -46,6 +47,7 @@ div.menu {
     display: inline-flex;
 }
 .menu ul li {
+    transition: all 0.4s ease-in;
     list-style: none;
     margin: 0 1.6vw;
     color: var(--foreground);
@@ -69,6 +71,7 @@ div.menu {
     padding: 1.4vw;
 }
 .title h1{
+    transition: all 0.4s ease-in;
     color: var(--foreground);
     font-size: 1.4vw;
 }
@@ -151,11 +154,13 @@ div.menu {
     padding-left: 2vw;
 }
 .content #content-body h1 {
+    transition: all 0.4s ease-in;
     color: var(--foreground);
     font-size: 2vw;
     margin-top: -6vw;
 }
 .content #content-body p {
+    transition: all 0.4s ease-in;
     color: var(--foreground);
     font-size: 1.4vw;
     padding-top: 0.5vw;
