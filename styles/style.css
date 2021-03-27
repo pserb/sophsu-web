@@ -3,11 +3,39 @@
     padding: 0;
     font-family: futura-pt, sans-serif;
 }
+:root {
+    --color-light: #ebdfe1;
+    --color-dark: #47556c;
+
+    --foreground: var(--color-dark);
+    --background: var(--color-light);
+}
+.darkmode {
+    --color-light: #ebdfe1;
+    --color-dark: #47556c;
+
+    --foreground: var(--color-light);
+    --background: var(--color-dark);
+    
+}
+.dark-mode-toggle {
+    border: none;
+    outline: none;
+    z-index: 100;
+    color: var(--foreground);
+    background: transparent;
+    cursor: pointer;
+  }
+  .dark-label {
+      color: var(--foreground);
+      margin-left: 1.5vw;
+      margin-top: -1vw;
+  }
 .container {
     position: relative;
     width: 100%;
     height: auto;
-    background: #ebdfe1;
+    background: var(--background);
 }
 div.menu {
     width: fit-content;
@@ -20,7 +48,7 @@ div.menu {
 .menu ul li {
     list-style: none;
     margin: 0 1.6vw;
-    color: #47556c;
+    color: var(--foreground);
     cursor: pointer;
     font-size: 1vw;
     letter-spacing: 3px;
@@ -41,7 +69,7 @@ div.menu {
     padding: 1.4vw;
 }
 .title h1{
-    color: #47556c;
+    color: var(--foreground);
     font-size: 1.4vw;
 }
 .menu #spacer {
@@ -123,12 +151,12 @@ div.menu {
     padding-left: 2vw;
 }
 .content #content-body h1 {
-    color: #47556c;
+    color: var(--foreground);
     font-size: 2vw;
     margin-top: -6vw;
 }
 .content #content-body p {
-    color: #47556c;
+    color: var(--foreground);
     font-size: 1.4vw;
     padding-top: 0.5vw;
     padding-left: 0.26vw;
