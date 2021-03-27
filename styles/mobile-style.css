@@ -217,6 +217,22 @@ body{
     animation-delay: 1s;
 }
 .content {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.content:nth-child(5n+1){
+    animation-delay: 1.2s;
+}
+.event-list-parent {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.event-list-parent {
+    animation-delay: 1.4s;
+}
+.content {
     margin: auto;
     width: 75%;
 }
