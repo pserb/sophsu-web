@@ -14,9 +14,9 @@ body{
  
  #menuToggle {
    display: block;
-   position: relative;
-   top: 30px;
-   left: 30px;
+   position: fixed;
+   top: 7.6vw;
+   left: 7.6vw;
    
    z-index: 1;
    
@@ -120,3 +120,14 @@ body{
  #menuToggle input:checked ~ ul {
    transform: none;
  }
+ .container #title {
+    font-size: 6vw;
+    padding-left: 22vw;
+    margin-top: 7vw;
+ }
+ .container #logo {
+    width: 14vw;
+    float: right;
+    margin-top: -15vw;
+    margin-right: 6vw;
+}
