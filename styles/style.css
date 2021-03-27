@@ -75,7 +75,8 @@ div.menu {
     text-align: center;
     margin-top: -22vw;
 }
-.body table {
+.body #main {
+    padding-top: 2vw;
     padding-left: 3vw;
     padding-right: 3vw;
 }
@@ -113,10 +114,13 @@ div.menu {
     color: white;
 }
 .content {
-    margin-left: -3vw;
+    padding-left: 2vw;
+}
+.spacer {
+    height: 1.4vw;
 }
 .content #content-body {
-    padding: 2vw;
+    padding-left: 2vw;
 }
 .content #content-body h1 {
     color: #47556c;
