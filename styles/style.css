@@ -6,24 +6,38 @@
 :root {
     --color-light: #ebdfe1;
     --color-dark: #47556c;
+    --btn-color-dark: #343e4e;
+    --btn-color-light: #cfc5c7;
 
     --foreground: var(--color-dark);
-    --background: var(--color-light);}
+    --background: var(--color-light);
+    --btn-color: var(--btn-color-light);
+}
 .darkmode {
     --color-light: #ebdfe1;
     --color-dark: #47556c;
+    --btn-color-dark: #343e4e;
+    --btn-color-light: #cfc5c7;
 
     --foreground: var(--color-light);
     --background: var(--color-dark);
+    --btn-color: var(--btn-color-dark);
     
 }
 .dark-mode-toggle {
+    transition: color 0.4s ease-in;
+    -webkit-appearance: none;
     border: none;
     outline: none;
     z-index: 100;
     color: var(--foreground);
-    background: transparent;
+    background: var(--btn-color);
+    border-radius: 1.2vw;
+    padding: 1vw;
     cursor: pointer;
+    letter-spacing: 1.4px;
+    font-size: 1vw;
+    margin-top: -1vw;
   }
   .dark-label {
     transition: all 0.4s ease-in;
@@ -45,6 +59,7 @@ div.menu {
 }
 .menu ul {
     display: inline-flex;
+    margin-top: 1vw;
 }
 .menu ul li {
     transition: all 0.4s ease-in;
@@ -339,4 +354,52 @@ div.menu {
 }
 .content:nth-child(5n+1){
     animation-delay: 2.4s;
+}
+.general-body {
+    text-align: center;
+    padding-top: 1vw;
+    margin: auto;
+    width: 70%;
+}
+.general-body table {
+    margin: auto;
+}
+.general-body h1 {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 3vw;
+}
+.general-body p {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 2vw;
+}
+.our-team {
+    padding-top: 1vw;
+}
+.our-team #images img {
+    width: 12vw;
+    padding: 2vw;
+}
+.our-team #description h2 {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    margin-top: -1vw;
+    font-size: 2vw;
+    line-height: 4vw;
+}
+.our-team #description p {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 1.4vw;
+    word-wrap: break-word;
+    margin-top: -2vw;
+    padding: 2vw;
+}
+.our-team #description td {
+    vertical-align: top;
+    text-align: center;
+}
+.our-team tr td {
+    width: 12vw;
 }
