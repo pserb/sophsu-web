@@ -281,7 +281,7 @@ body{
 }
 .content {
     margin: auto;
-    width: 80%;
+    width: 86%;
 }
 .content #img img {
     width: 30vw;
@@ -293,11 +293,11 @@ body{
     font-size: 4.2vw;
 }
 .content #content-body p {
-    font-size: 2.6vw;
+    font-size: 3vw;
 }
 .event-list-parent {
     margin: auto;
-    width: 80%;
+    width: 86%;
     background:#a33b3b;
 }
 .event-list ul {
@@ -318,7 +318,7 @@ body{
 }
 .event-list p {
     color: white;
-    font-size: 2.6vw;
+    font-size: 3vw;
 }
 .event-list #head {
     font-family: acumin-pro-wide, sans-serif;
