@@ -48,6 +48,7 @@ div.menu {
 }
 .menu ul li {
     transition: all 0.4s ease-in;
+    text-decoration: none;
     list-style: none;
     margin: 0 1.6vw;
     color: var(--foreground);
@@ -56,6 +57,9 @@ div.menu {
     letter-spacing: 3px;
     font-weight: 700px;
     font-style: normal;
+}
+.menu #a {
+    text-decoration: none;
 }
 .menu ul li:hover {
     color: #88a3ce;
@@ -146,6 +150,77 @@ div.menu {
 }
 .content {
     padding-left: 2vw;
+}
+.content h1 {
+    transition: all 0.4s ease-in;
+    color: var(--foreground);
+    text-align: center;
+    font-size: 3vw;
+    letter-spacing: 6px;
+}
+.content #p {
+    transition: all 0.4s ease-in;
+    color: var(--foreground);
+    text-align: center;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    padding-top: 1.5vw;
+    padding-bottom: 2vw;
+}
+.team-members img {
+    padding-right: 2vw;
+    width: 14vw;
+}
+.team-members #dababy {
+    width: 17.4vw;
+}
+.team-members p {
+    transition: all 0.4s ease-in;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: var(--foreground);
+    font-size: 1.2vw;
+    width: 14vw;
+    word-wrap: break-word;
+}
+.team-members #p-text {
+    vertical-align: top;
+    text-align: center;
+}
+.team-members table {
+    padding-bottom: 4vw;
+}
+.content h1 {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.content h1:nth-child(5n+1){
+    animation-delay: 2.2s;
+}
+.content #p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.content #p:nth-child(5n+2) {
+    animation-delay: 2.4s;
+}
+.team-members img {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.team-members img:nth-child(5n+1) {
+    animation-delay: 2.6s;
+}
+.team-members p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.team-members p:nth-child(5n+1) {
+    animation-delay: 2.8s;
 }
 .spacer {
     height: 1.4vw;
