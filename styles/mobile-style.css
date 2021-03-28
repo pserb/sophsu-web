@@ -374,6 +374,46 @@ body{
     margin-left: 2vw;
     margin-right: 2vw;
 }
+.general-body h1 {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.general-body h1:nth-child(5n+1) {
+    animation-delay: 1s;
+}
+.general-body p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.general-body p:nth-child(5n+2) {
+    animation-delay: 1.2s;
+}
+.our-team #images img {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team #images img:nth-child(5n+1) {
+    animation-delay: 1.4s;
+}
+.our-team #description h2 {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team #description h2:nth-child(5n+1) {
+    animation-delay: 1.6s;
+}
+.our-team #description p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team #description p:nth-child(5n+2) {
+    animation-delay: 1.8s;
+}
 .study-img {
     background-image: url(../images/temp-study-img.png);
     background-repeat: no-repeat;
@@ -394,4 +434,12 @@ body{
     border-radius: 2vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+}
+.study-img {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.study-img {
+    animation-delay: 1.4s;
 }

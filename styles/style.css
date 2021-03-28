@@ -298,9 +298,9 @@ div.menu {
 .menu table td ul #a:nth-child(5n+2){
     animation-delay: 0.8s;
 }
-  .menu ul li:nth-child(5n+2) {
-    animation-delay: 0.8s;
-  }
+.menu table td ul #a:nth-child(5n+3){
+    animation-delay: 1s;
+}
   .menu ul li:nth-child(5n+3) {
     animation-delay: 1s;
   }
@@ -403,6 +403,46 @@ div.menu {
 .our-team tr td {
     width: 12vw;
 }
+.general-body h1 {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.general-body h1:nth-child(5n+1) {
+    animation-delay: 2.4s;
+}
+.general-body p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.general-body p:nth-child(5n+2) {
+    animation-delay: 2.4s;
+}
+.our-team #images img {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team #images img:nth-child(5n+1) {
+    animation-delay: 2.6s;
+}
+.our-team #description h2 {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team #description h2:nth-child(5n+1) {
+    animation-delay: 2.8s;
+}
+.our-team #description p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team #description p:nth-child(5n+2) {
+    animation-delay: 3s;
+}
 .general-body #study-p {
     padding-top: 1vw;
 }
@@ -426,4 +466,12 @@ div.menu {
     border-radius: 1vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+}
+.study-img {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.study-img {
+    animation-delay: 2.7s;
 }
