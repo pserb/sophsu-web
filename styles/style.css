@@ -403,3 +403,26 @@ div.menu {
 .our-team tr td {
     width: 12vw;
 }
+.general-body #study-p {
+    padding-top: 1vw;
+}
+.study-img {
+    background-image: url(../images/temp-study-img.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 20vw;
+    width: 20vw;
+    background-size: 20vw;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 1vw;
+}
+.study-img p {
+    font-size: 1.6vw;
+}
+.study-txt {
+    color: var(--foreground);
+    background: var(--btn-color);
+    border-radius: 1vw;
+    padding-top: 1vw;
+}

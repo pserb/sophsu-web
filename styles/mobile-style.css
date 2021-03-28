@@ -369,3 +369,28 @@ body{
 .our-team tr td {
     width: 50vw;
 }
+.general-body #study-p {
+    padding-top: 0.2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.study-img {
+    background-image: url(../images/temp-study-img.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 40vw;
+    width: 40vw;
+    background-size: 40vw;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 1vw;
+}
+.study-img p {
+    font-size: 4.6vw;
+}
+.study-txt {
+    color: var(--foreground);
+    background: var(--btn-color);
+    border-radius: 2vw;
+    padding-top: 1vw;
+}
