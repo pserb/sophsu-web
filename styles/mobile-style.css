@@ -329,3 +329,43 @@ body{
     color: white;
     margin-top: -4vw;
 }
+.general-body {
+    text-align: center;
+    padding-top: 24vw;
+    margin: auto;
+    width: 90%;
+}
+.general-body h1 {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 9vw;
+}
+.general-body p {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 5vw;
+}
+.our-team {
+    padding-top: 4vw;
+}
+.our-team #images img {
+    width: 40vw;
+}
+.our-team #description h2 {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 6vw;
+}
+.our-team #description p {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 4vw;
+    word-wrap: break-word;
+}
+.our-team #description td {
+    vertical-align: top;
+    text-align: center;
+}
+.our-team tr td {
+    width: 50vw;
+}
