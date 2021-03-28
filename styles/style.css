@@ -272,9 +272,17 @@ div.menu {
     animation: fadeIn 1s 1;
     animation-fill-mode: forwards;
 }
-.menu ul li:nth-child(5n+1) {
+.menu table td ul #a {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.menu table td ul #a:nth-child(5n+1){
     animation-delay: 0.6s;
-  }
+}
+.menu table td ul #a:nth-child(5n+2){
+    animation-delay: 0.8s;
+}
   .menu ul li:nth-child(5n+2) {
     animation-delay: 0.8s;
   }
