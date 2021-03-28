@@ -393,4 +393,5 @@ body{
     background: var(--btn-color);
     border-radius: 2vw;
     padding-top: 1vw;
+    padding-bottom: 1vw;
 }
