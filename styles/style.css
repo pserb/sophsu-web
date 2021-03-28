@@ -277,10 +277,10 @@ div.menu {
     animation-delay: 0.2s;
 }
 .menu table td:nth-child(5n+2) {
-    animation-delay: 0.4s;
+    animation-delay: 0.35s;
 }
 .menu table td:nth-child(5n+3) {
-    animation-delay: 0.6s;
+    animation-delay: 0.5s;
 }
 .menu ul li {
     opacity: 0;
@@ -293,34 +293,34 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .menu table td ul #a:nth-child(5n+1){
-    animation-delay: 0.6s;
+    animation-delay: 0.65s;
 }
 .menu table td ul #a:nth-child(5n+2){
     animation-delay: 0.8s;
 }
 .menu table td ul #a:nth-child(5n+3){
-    animation-delay: 1s;
+    animation-delay: 0.95s;
 }
   .menu ul li:nth-child(5n+3) {
-    animation-delay: 1s;
+    animation-delay: 0.95s;
   }
   .menu ul li:nth-child(5n+4) {
-    animation-delay: 1.2s;
+    animation-delay: 1.1s;
   }
   .menu ul li:nth-child(5n+5) {
-    animation-delay: 1.4s;
+    animation-delay: 1.25s;
   }
   .menu ul li:nth-child(5n+6) {
-    animation-delay: 1.6s;
+    animation-delay: 1.4s;
   }
   .menu ul li:nth-child(5n+7) {
-    animation-delay: 1.8s;
+    animation-delay: 1.55s;
   }
   .menu ul li:nth-child(5n+8) {
-    animation-delay: 2s;
+    animation-delay: 1.7s;
   }
   .menu ul li:nth-child(5n+9) {
-    animation-delay: 2.2s;
+    animation-delay: 1.85s;
   }
 
 .bg-image {
@@ -329,7 +329,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .bg-image:nth-child(5n+2){
-    animation-delay: 2.2s;
+    animation-delay: 2s;
 }
 .bg-text {
     opacity: 0;
@@ -337,7 +337,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .bg-text:nth-child(5n+3){
-    animation-delay: 2.2s;
+    animation-delay: 2s;
 }
 .event-list {
     opacity: 0;
@@ -345,7 +345,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .event-list:nth-child(5n+1){
-    animation-delay: 2.4s;
+    animation-delay: 2.2s;
 }
 .content {
     opacity: 0;
@@ -353,7 +353,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .content:nth-child(5n+1){
-    animation-delay: 2.4s;
+    animation-delay: 2.2s;
 }
 .general-body {
     text-align: center;
@@ -409,7 +409,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .general-body h1:nth-child(5n+1) {
-    animation-delay: 2.4s;
+    animation-delay: 2.2s;
 }
 .general-body p {
     opacity: 0;
@@ -417,7 +417,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .general-body p:nth-child(5n+2) {
-    animation-delay: 2.4s;
+    animation-delay: 2.2s;
 }
 .our-team #images img {
     opacity: 0;
@@ -425,7 +425,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .our-team #images img:nth-child(5n+1) {
-    animation-delay: 2.6s;
+    animation-delay: 2.4s;
 }
 .our-team #description h2 {
     opacity: 0;
@@ -433,7 +433,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .our-team #description h2:nth-child(5n+1) {
-    animation-delay: 2.8s;
+    animation-delay: 2.6s;
 }
 .our-team #description p {
     opacity: 0;
@@ -441,7 +441,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .our-team #description p:nth-child(5n+2) {
-    animation-delay: 3s;
+    animation-delay: 2.8s;
 }
 .general-body #study-p {
     padding-top: 1vw;
@@ -473,5 +473,5 @@ div.menu {
     animation-fill-mode: forwards;
 }
 .study-img {
-    animation-delay: 2.7s;
+    animation-delay: 2.4s;
 }
