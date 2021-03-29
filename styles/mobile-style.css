@@ -463,7 +463,7 @@ body{
     font-size: 3.6vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    padding-bottom: 3vw;
+    padding-bottom: 16vw;
 }
 #dept-p {
     transition: 0.4s ease-in;
@@ -472,6 +472,36 @@ body{
     padding-left: 2vw;
     padding-right: 2vw;
     text-align: top;
+}
+#dept-p-special {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 3.4vw;
+    text-align: top;
+}
+#dept-p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+#dept-p {
+    animation-delay: 1.4s;
+}
+#dept-p-special {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+#dept-p-special {
+    animation-delay: 1.4s;
+}
+#dept-p-alt {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+#dept-p-alt {
+    animation-delay: 1.4s;
 }
 .study-guides-table {
     margin: auto;

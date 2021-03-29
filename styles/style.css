@@ -463,7 +463,7 @@ div.menu {
     font-size: 1.4vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    padding-bottom: 3vw;
+    padding-bottom: 8vw;
 }
 #dept-p {
     transition: 0.4s ease-in;
@@ -472,6 +472,36 @@ div.menu {
     padding-left: 2vw;
     padding-right: 2vw;
     text-align: top;
+}
+#dept-p-special {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 1.4vw;
+    text-align: top;
+}
+#dept-p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+#dept-p {
+    animation-delay: 2.4s;
+}
+#dept-p-special {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+#dept-p-special {
+    animation-delay: 2.4s;
+}
+#dept-p-alt {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+#dept-p-alt {
+    animation-delay: 2.4s;
 }
 .study-img {
     background-image: url(../images/temp-study-img.png);
@@ -523,6 +553,9 @@ div.menu {
 }
 #news-spacer {
     height: 4vw;
+}
+#team-spacer {
+    width: 4vw;
 }
 .newsletter-img {
     opacity: 0;
