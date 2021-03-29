@@ -73,10 +73,10 @@ div.menu {
     font-weight: 700px;
     font-style: normal;
 }
-.menu #a {
+#a {
     text-decoration: none;
 }
-.menu ul li:hover {
+#a li:hover {
     color: #88a3ce;
 }
 .logo {
