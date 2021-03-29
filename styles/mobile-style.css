@@ -564,6 +564,7 @@ body{
     font-family: futura-pt, sans-serif;
     color: var(--foreground);
     letter-spacing: 1px;
+    -webkit-appearance: none;
 }
 #search-text:focus {
     outline: none;
@@ -575,6 +576,7 @@ body{
     border-radius: 20px;
     transition: 0.4s ease-in;
     background: var(--background);
+    -webkit-appearance: none;
 }
 #search-button:hover {
     transition: 0.4s ease-in;
@@ -592,6 +594,7 @@ body{
     font-family: futura-pt, sans-serif;
     color: var(--foreground);
     letter-spacing: 1px;
+    -webkit-appearance: none;
 }
 #search-type:focus {
     outline: none;
