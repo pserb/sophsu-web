@@ -442,6 +442,7 @@ div.menu {
 }
 .general-body #study-p {
     padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 #h2 {
     padding-top: 4vw;
@@ -532,6 +533,9 @@ div.menu {
 .study-img {
     animation-delay: 2.4s;
 }
+.study-guides-table {
+    padding-top: 1vw;
+}
 .newsletter-img {
     background-image: url(https://static.wixstatic.com/media/459cac_2dda8e879ba840ea9ecefa01f84c5601~mv2.png/v1/fill/w_584,h_779,al_c,q_90,usm_0.66_1.00_0.01/459cac_2dda8e879ba840ea9ecefa01f84c5601~mv2.webp);
     background-repeat: no-repeat;
@@ -567,4 +571,75 @@ div.menu {
 }
 .newsletter-img:nth-child(5n+2) {
     animation-delay: 2.4s;
+}
+.search-bar-container {
+    margin: auto;
+    position: relative;
+    width: 30vw;
+    height: 2.4vw;
+    transition: 0.4s ease-in;
+    border: 4px solid var(--foreground);
+    padding: 0 10px;
+    border-radius: 50px;
+}
+.elementsContainer {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+#search-text {
+    border: none;
+    transition: 0.4s ease-in;
+    background: var(--background);
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    font-family: futura-pt, sans-serif;
+    color: var(--foreground);
+    letter-spacing: 1px;
+}
+#search-text:focus {
+    outline: none;
+}
+#search-button {
+    border: none;
+    outline: none;
+    font-size: 1.6vw;
+    border-radius: 50px;
+    transition: 0.4s ease-in;
+    background: var(--background);
+}
+#search-button:hover {
+    transition: 0.4s ease-in;
+    background: var(--btn-color);
+}
+#search-type {
+    border: none;
+    transition: 0.4s ease-in;
+    background: var(--background);
+    height: 100%;
+    width: 100%;
+    padding: 0 5px;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    font-family: futura-pt, sans-serif;
+    color: var(--foreground);
+    letter-spacing: 1px;
+}
+#search-type:focus {
+    outline: none;
+}
+#search-type:hover {
+    transition: 0.4s ease-in;
+    background: var(--btn-color);
+}
+.search-bar-container {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.search-bar-container {
+    animation-delay: 2.2s;
 }
