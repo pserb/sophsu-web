@@ -458,7 +458,7 @@ div.menu {
     animation-fill-mode: forwards;
 }
 #h2:nth-child(5n+1){
-    animation-delay: 2.4s;
+    animation-delay: 2.8s;
 }
 #dept-p-alt {
     transition: 0.4s ease-in;
