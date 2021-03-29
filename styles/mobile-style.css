@@ -473,3 +473,36 @@ body{
     padding-right: 2vw;
     text-align: top;
 }
+.study-guides-table {
+    margin: auto;
+}
+.newsletter-img {
+    background-image: url(https://static.wixstatic.com/media/459cac_2dda8e879ba840ea9ecefa01f84c5601~mv2.png/v1/fill/w_584,h_779,al_c,q_90,usm_0.66_1.00_0.01/459cac_2dda8e879ba840ea9ecefa01f84c5601~mv2.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 70vw;
+    width: 70vw;
+    background-size: 70vw;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 1vw;
+}
+.newsletter-txt {
+    color: var(--foreground);
+    background: var(--btn-color);
+    border-radius: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-bottom: -2vw;
+}
+#news-spacer {
+    height: 4vw;
+}
+.newsletter-img {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.newsletter-img:nth-child(5n+1) {
+    animation-delay: 1.6s;
+}
