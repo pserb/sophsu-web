@@ -51,12 +51,12 @@
     width: 100%;
     height: auto;
     background: var(--background);
-    padding-bottom: 2vw;
+    padding-bottom: 4vw;
 }
 div.menu {
     width: fit-content;
     height: fit-content;
-    padding-bottom: 2vw;
+    padding-bottom: 0.7vw;
 }
 .menu ul {
     display: inline-flex;
@@ -94,6 +94,9 @@ div.menu {
     transition: all 0.4s ease-in;
     color: var(--foreground);
     font-size: 1.4vw;
+}
+.title a {
+    text-decoration: none;
 }
 .menu #spacer {
     width: 1vw;
@@ -288,32 +291,33 @@ div.menu {
     animation: fadeIn 1s 1;
     animation-fill-mode: forwards;
 }
-.menu table td ul #a {
+#a {
     opacity: 0;
     animation: fadeIn 1s 1;
     animation-fill-mode: forwards;
 }
-.menu table td ul #a:nth-child(5n+1){
+#a:nth-child(5n+1){
     animation-delay: 0.65s;
 }
-.menu table td ul #a:nth-child(5n+2){
+#a:nth-child(5n+2){
     animation-delay: 0.8s;
 }
-.menu table td ul #a:nth-child(5n+3){
+#a:nth-child(5n+3){
     animation-delay: 0.95s;
 }
-  .menu td ul #a:nth-child(5n+4) {
+#a:nth-child(5n+4) {
     animation-delay: 1.1s;
   }
-  .menu td ul #a:nth-child(5n+5) {
+#a:nth-child(5n+5) {
     animation-delay: 1.25s;
   }
-  .menu ul li:nth-child(5n+6) {
+#a:nth-child(5n+6) {
     animation-delay: 1.4s;
   }
   .menu ul li:nth-child(5n+7) {
     animation-delay: 1.55s;
   }
+
   .menu ul li:nth-child(5n+8) {
     animation-delay: 1.7s;
   }
