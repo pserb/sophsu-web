@@ -51,6 +51,7 @@
     width: 100%;
     height: auto;
     background: var(--background);
+    padding-bottom: 2vw;
 }
 div.menu {
     width: fit-content;
@@ -642,4 +643,8 @@ div.menu {
 }
 .search-bar-container {
     animation-delay: 2.2s;
+}
+.footer {
+    background: var(--btn-color);
+    color: var(--foreground);
 }
