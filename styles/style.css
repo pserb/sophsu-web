@@ -8,6 +8,7 @@
     --color-dark: #47556c;
     --btn-color-dark: #343e4e;
     --btn-color-light: #cfc5c7;
+    --study-img-size: 20vw;
 
     --foreground: var(--color-dark);
     --background: var(--color-light);
@@ -601,7 +602,8 @@ div.menu {
     background-position: top center;
     height: 20vw;
     width: 20vw;
-    background-size: 20vw;
+    transition: all 0.2s ease-in;
+    background-size: var(--study-img-size);
     vertical-align: bottom;
     text-align: center;
     padding: 1vw;
@@ -749,4 +751,7 @@ div.menu {
 .study-img a p {
     align-self: flex-end;
     width: 100%;
+}
+.study-img:hover {
+    --study-img-size: 22vw;
 }
