@@ -397,6 +397,7 @@ div.menu {
     word-wrap: break-word;
     margin-top: -2vw;
     padding: 2vw;
+    font-style: italic;
 }
 .our-team #description td {
     vertical-align: top;
@@ -427,6 +428,7 @@ div.menu {
     word-wrap: break-word;
     margin-top: -2vw;
     padding: 2vw;
+    font-style: italic;
 }
 .our-team-alt #description td {
     vertical-align: top;

@@ -169,6 +169,10 @@ body{
     font-size: 6vw;
     padding-left: 22vw;
     margin-top: 7vw;
+    color: var(--foreground);
+ }
+ #title-a {
+     text-decoration: none;
  }
  .container #logo {
     width: 14vw;
@@ -361,6 +365,7 @@ body{
     color: var(--foreground);
     font-size: 4vw;
     word-wrap: break-word;
+    font-style: italic;
 }
 .our-team #description td {
     vertical-align: top;
