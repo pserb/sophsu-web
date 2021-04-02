@@ -393,7 +393,7 @@ div.menu {
 .our-team #description p {
     transition: 0.4s ease-in;
     color: var(--foreground);
-    font-size: 1.4vw;
+    font-size: 1.6vw;
     word-wrap: break-word;
     margin-top: -2vw;
     padding: 2vw;
@@ -403,7 +403,37 @@ div.menu {
     text-align: center;
 }
 .our-team tr td {
+    width: 20vw;
+}
+.our-team-alt {
+    padding-top: 1vw;
+    padding-bottom: 4.2vw;
+}
+.our-team-alt #images img {
     width: 12vw;
+    padding: 2vw;
+}
+.our-team-alt #description h2 {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    margin-top: -2vw;
+    font-size: 2vw;
+    line-height: 4vw;
+}
+.our-team-alt #description p {
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 1.6vw;
+    word-wrap: break-word;
+    margin-top: -2vw;
+    padding: 2vw;
+}
+.our-team-alt #description td {
+    vertical-align: top;
+    text-align: center;
+}
+.our-team-alt tr td {
+    width: 20vw;
 }
 .general-body h1 {
     opacity: 0;
@@ -420,6 +450,30 @@ div.menu {
 }
 .general-body p:nth-child(5n+2) {
     animation-delay: 2.2s;
+}
+.our-team-alt #images img {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team-alt #images img:nth-child(5n+1) {
+    animation-delay: 2.4s;
+}
+.our-team-alt #description h2 {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team-alt #description h2:nth-child(5n+1) {
+    animation-delay: 2.6s;
+}
+.our-team-alt #description p {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.our-team-alt #description p:nth-child(5n+2) {
+    animation-delay: 2.8s;
 }
 .our-team #images img {
     opacity: 0;
@@ -445,6 +499,14 @@ div.menu {
 .our-team #description p:nth-child(5n+2) {
     animation-delay: 2.8s;
 }
+.dept-list {
+    opacity: 0;
+    animation: fadeIn 1s 1;
+    animation-fill-mode: forwards;
+}
+.dept-list {
+    animation-delay: 3s;
+}
 .general-body #study-p {
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -463,6 +525,29 @@ div.menu {
 #h2:nth-child(5n+1){
     animation-delay: 2.8s;
 }
+.dept-list {
+    list-style: none;
+    transition: 0.4s ease-in;
+    color: var(--foreground);
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: top;
+    font-family: futura-pt, sans-serif;
+    line-height: 4px;
+}
+.team-container {
+    width: 60vw;
+}
+.table-special {
+    width: 62vw;
+}
+.table-special .our-team {
+    width: 32vw;
+}
+.table-special .our-team .table-list {
+    width: 32vw;
+}
 #dept-p-alt {
     transition: 0.4s ease-in;
     color: var(--foreground);
@@ -471,7 +556,7 @@ div.menu {
     padding-right: 2vw;
     padding-bottom: 8vw;
 }
-#dept-p {
+#dept-p{
     transition: 0.4s ease-in;
     color: var(--foreground);
     font-size: 1.4vw;
