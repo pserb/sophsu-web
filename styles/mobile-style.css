@@ -235,20 +235,20 @@ body{
 .navbar #menuToggle:nth-child(5n+1){
     animation-delay: 0.4s;
 }
-.navbar h1 {
+.navbar #title-a #title {
     opacity: 0;
     animation: fadeIn 1s 1;
     animation-fill-mode: forwards;
 }
-.navbar h1:nth-child(5n+2) {
+.navbar #title-a #title {
     animation-delay: 0.6s;
 }
-.navbar img {
+.navbar a img {
     opacity: 0;
     animation: fadeIn 1s 1;
     animation-fill-mode: forwards;
 }
-.navbar img:nth-child(5n+3) {
+.navbar a img {
     animation-delay: 0.8s;
 }
 .bg-image {
