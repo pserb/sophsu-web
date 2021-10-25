@@ -143,16 +143,16 @@ body{
 }
  #menu {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-   position: absolute;
-   width: 100vw;
-   margin: -100px 0 0 -50px;
-   padding: 50px;
-   padding-top: 125px;
-   list-style-type: none;
-   -webkit-font-smoothing: antialiased;
+    position: absolute;
+    width: 100vw;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
    
-   transform-origin: 0% 0%;
-   transform: translate(-100%, 0);
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
    
  }
  
